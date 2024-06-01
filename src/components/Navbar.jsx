@@ -165,7 +165,7 @@ const Navbar = () => {
         <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="flex text-sm rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            className="flex text-sm rounded-full md:me-0"
             id="user-menu-button"
             aria-expanded="false"
             data-dropdown-toggle="user-dropdown"
@@ -198,7 +198,7 @@ const Navbar = () => {
           >
             <ul class="space-y-3 dark:text-white">
             <li class="font-medium w-[200px] pt-4 pr-4 pl-4">
-              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent">
                 <div class="mr-3">
                   <img src="https://i.ibb.co/FzY98HF/user.png" alt="" />
                 </div>
@@ -206,7 +206,7 @@ const Navbar = () => {
               </a>
             </li>
             <li class="font-medium w-[200px] pt-4 pr-4 pl-4">
-              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent">
                 <div class="mr-3">
                   <img src="https://i.ibb.co/rGNzyjD/Dashboard.png" alt="" />
                 </div>
@@ -214,7 +214,7 @@ const Navbar = () => {
               </a>
             </li>
             <li class="font-medium w-[200px] pt-4 pr-4 pl-4">
-              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent">
                 <div class="mr-3">
                   <img src="https://i.ibb.co/2dJ7qfX/Code.png" alt="" />
                 </div>
@@ -223,7 +223,7 @@ const Navbar = () => {
             </li>
             <hr class="dark:border-gray-700"/>
             <li class="font-medium w-[200px] pb-4 pr-4 pl-4">
-              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-red-600">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent ">
                 <div class="mr-3 text-black-400">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
                 </div>
