@@ -196,40 +196,41 @@ const Navbar = () => {
             className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
             id="user-dropdown"
           >
-            <ul className="py-2" aria-labelledby="user-menu-button">
-              <li>
-                <a
-                  href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                >
-                  Dashboard
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                >
-                  Settings
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                >
-                  Earnings
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                >
-                  Sign out
-                </a>
-              </li>
-            </ul>
+            <ul class="space-y-3 dark:text-white">
+            <li class="font-medium w-[200px] pt-4 pr-4 pl-4">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700">
+                <div class="mr-3">
+                  <img src="https://i.ibb.co/FzY98HF/user.png" alt="" />
+                </div>
+                View Profile
+              </a>
+            </li>
+            <li class="font-medium w-[200px] pt-4 pr-4 pl-4">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700">
+                <div class="mr-3">
+                  <img src="https://i.ibb.co/rGNzyjD/Dashboard.png" alt="" />
+                </div>
+                Dashboard
+              </a>
+            </li>
+            <li class="font-medium w-[200px] pt-4 pr-4 pl-4">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-indigo-700">
+                <div class="mr-3">
+                  <img src="https://i.ibb.co/2dJ7qfX/Code.png" alt="" />
+                </div>
+                API
+              </a>
+            </li>
+            <hr class="dark:border-gray-700"/>
+            <li class="font-medium w-[200px] pb-4 pr-4 pl-4">
+              <a href="#" class="flex items-center transform transition-colors duration-200 border-r-4 border-transparent hover:border-red-600">
+                <div class="mr-3 text-black-400">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                </div>
+                Logout
+              </a>
+            </li>
+          </ul>
           </div>
           {/* Night */}
           <div className="flex pl-6">
